@@ -1,0 +1,8 @@
+            String str = reader.readLine();
+            writer.write(str + "\n");
+            writer.flush();
+            if (str.equals("exit")){
+                break;
+            }
+        }
+        reader.close();
