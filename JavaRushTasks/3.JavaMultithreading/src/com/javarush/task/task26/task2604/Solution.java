@@ -10,6 +10,8 @@ import java.util.logging.Logger;
 public class Solution extends Thread {
     public static final String DEFAULT_JAVARUSH_THREAD_NAME = "JavaRushThread";
 
+
+
     private static final AtomicInteger createdThreadIndex = new AtomicInteger();
     private static final AtomicInteger aliveThreadIndex = new AtomicInteger();
 
